@@ -32,59 +32,35 @@ const IndexPage = () => (
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Travis McCormick</h1>
-        <p>iOS Developer</p>
-        <Link to="/page-2/">Portfolio</Link>
-        <div className="Logos">
-          <img src={require('../images/logo-figma.png')} width="50" />
-          <img src={require('../images/logo-react.png')} width="50" />
-          <img src={require('../images/logo-sketch.png')} width="50" />
-          <img src={require('../images/logo-swift.png')} width="50" />
-          <img src={require('../images/logo-framer.png')} width="50" />
-          <img src={require('../images/logo-studio.png')} width="50" />
-        </div>
-        
+        <h1>Hi,</h1>
+        <h1>I'm Travis,</h1>
+        <h1>iOS developer.</h1>
       </div>
     </div>
     <div className="Cards">
-      <h2>Portfolio</h2>
       <div className="CardGroup">
         <Card 
           title="Pitch Perfect"
           text="12 sections"
-          image={require('../images/quepal.jpg')} 
+          image={require('../images/white.png')} 
           />
         <Card 
           title="MemeMe"
           text="12 sections"
-          image={require('../images/quepal.jpg')} 
+          image={require('../images/white.png')} 
           />
         <Card 
           title="On The Map"
           text="12 sections"
-          image={require('../images/quepal.jpg')} 
-          />
-        <Card 
-          title="Virtual Tourist"
-          text="12 sections"
-          image={require('../images/quepal.jpg')} 
+          image={require('../images/white.png')} 
           />
       </div>
     </div>
     <Section 
       image={require('../images/bydesign.jpg')}
-      logo={require('../images/logo-react.png')}
-      title="Learning React"
-      text="Fill in a bunch of text here not sure yet."
+      logo={require('../images/tm-logo.png')}
       />
-     <SectionCaption>OTHER PROJECTS</SectionCaption>
-     <SectionCellGroup>
-      {staticdata.cells.map(cell => (
-        <Cell 
-          title={cell.title}
-          image={cell.image} />
-      ))}
-     </SectionCellGroup>
+  
   </div>
 )
 
